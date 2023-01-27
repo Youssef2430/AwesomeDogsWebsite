@@ -1,0 +1,12 @@
+.center-round-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+  }
+  
+  .round-image {
+    border-radius: 5%;
+    overflow: hidden;
+  }
+  
