@@ -1,0 +1,58 @@
+.rating-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding: 50px;
+    padding-right: 10px;
+    margin: 0;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .rating-item {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+    background-color: #333333;
+    border-radius: 10px;
+    border: 2px solid color;
+    border-color: white;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    width: 300px;
+    height: 200px;
+    flex-direction: row;
+  }
+  
+  .rating-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 0 0 10px;
+    margin-right: 10px;
+  }
+  
+  .rating-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .rating-value {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+  }
+
+  .history-title {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
+  }
+  
